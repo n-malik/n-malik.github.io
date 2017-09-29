@@ -1,3 +1,7 @@
+body{
+  background-image: url("HotAirBalloon.jpg");
+  background-repeat: no-repeat;
+}
  h1
  {
 color: red;
@@ -6,6 +10,7 @@ font-size: 40px;
 }
 h1.header {
 color: purple;
+border: black;
 }
 h2 {
 color: blue;
