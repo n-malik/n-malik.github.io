@@ -1,0 +1,30 @@
+ h1
+ {
+color: red;
+font-size: 40px;
+
+}
+h1.header {
+color: purple;
+}
+h2 {
+color: blue;
+font-family: cursive;
+
+}
+h2.fun {
+  color: red;
+  font-family: sans-serif;
+}
+h3{
+  color: purple;
+  font-variant: small-caps;
+}
+h4{
+  color: green;
+  font-weight: 50px;
+}
+img
+{
+  width: 100px;
+}
