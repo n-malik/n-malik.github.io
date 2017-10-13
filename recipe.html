@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>My Recipes - Home Page</title>
+    <title>Roasted Potatoes</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css">
@@ -17,14 +17,15 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js"></script>
     <script src="https://use.fontawesome.com/f9001c39ac.js"></script>
 
-    </head>
+  </head>
 
   <body>
-    <!-- Grid System: Header, 9 column content, 3 column sidebar, Footer -->
+      <!-- Grid System: Header, 9 column content, 3 column sidebar, Footer -->
       <div class="container">
         <!-- Header with a Navigation Bar -->
         <div class="row">
           <div class="col-md">
+            <!-- NavBar -->
             <nav class="navbar navbar-expand-lg bg-dark">
                 <a class="navbar-brand" href="index.html">Neha's Recipes!</a>
                 <a class="navbar-brand" href="http://www.facebook.com">
@@ -59,47 +60,65 @@
         <div class="row">
           <!-- Recipe Card in left side of content area -->
           <div class="col-md-9">
-              <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
-                <ol class="carousel-indicators">
-                  <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-                  <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-                  <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-                  <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
-                  <li data-target="#carouselExampleIndicators" data-slide-to="4"></li>
-                  <li data-target="#carouselExampleIndicators" data-slide-to="5"></li>
-                  <li data-target="#carouselExampleIndicators" data-slide-to="6"></li>
-                </ol>
-                <div class="carousel-inner" role="listbox">
-                  <div class="carousel-item active">
-                    <div class="img"><img class="d-block w-100" src="images/smoothie.jpg" alt=""></div>
-                  </div>
-                  <div class="carousel-item">
-                    <div class="img"><img class="d-block w-100" src="images/cupcake.jpg" alt=""></div>
-                  </div>
-                  <div class="carousel-item">
-                    <div class="img"><img class="d-block w-100" src="images/pineapple.jpg" alt=""></div>
-                  </div>
-                  <div class="carousel-item">
-                    <div class="img"><img class="d-block w-100" src="images/yum.jpg" alt=""></div>
-                  </div>
-                  <div class="carousel-item">
-                    <div class="img"><img class="d-block w-100" src="images/sandwich.jpg" alt=""></div>
-                  </div>
-                  <div class="carousel-item">
-                    <div class="img"><img class="d-block w-100" src="images/taco.jpg" alt=""></div>
-                  </div>
-                </div>
-                <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                  <span class="sr-only">Previous</span>
-                </a>
-                <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                  <span class="sr-only">Next</span>
-                </a>
+             <div class="card">
+              <div class="card-header">
+                <h1 id = "recipetitle" class="card-title">Roasted Potatoes</h1>
+                <a href="#" class="btn btn-primary">+ Save Recipe</a>
               </div>
+              <div class="card-body">
+                <table class="table-bordered">
+                  <tr>
+                    <td width=75%><img class="card-img-top" src="images/roastedpotatoes.jpeg" alt="Card image cap"></td>
+                    <td>
+                      <p>
+                        Total: 1 hr 10 min <br>
+                        Prep: 10 min <br>
+                        Cook: 1 hr <br>
+                        Yield: 8 servings <br>
+                        Level: Easy
+                      </p>
+                    </td>
+                  </tr>
+                </table>
+                <br>
+                <table class="table-bordered">
+                  <thead class="thead-inverse" id="titlehead">
+                    <tr>
+                      <th width=40%><h2>Ingredients</h2></th>
+                      <th><h2>Directions</h2></th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td width=40%>
+                        <ul>
+                          <li>3 pounds small red or white potatoes</li>
+                          <li>1/4 cup good olive oil</li>
+                          <li>1 1/2 teaspoons kosher salt</li>
+                          <li>1 teaspoon freshly ground black pepper</li>
+                          <li>2 tablespoons minced garlic (6 cloves)</li>
+                          <li>2 tablespoons minced fresh parsley</li>
+                        </ul>
+                      </td>
+                      <td>
+                        <ol>
+                            <li>Preheat the oven to 400 degrees F. </li>
+                            <li>Cut the potatoes in half or quarters and place in a bowl with the olive oil, salt, pepper, and garlic; toss until the potatoes are well coated.</li>
+                            <li>Transfer the potatoes to a sheet pan and spread out into 1 layer.</li>
+                            <li>Roast in the oven for 45 minutes to 1 hour or until browned and crisp.</li>
+                            <li>Flip twice with a spatula during cooking in order to ensure even browning.</li>
+                            <li>Remove the potatoes from the oven, toss with parsley, season to taste, and serve hot. </li>
+                        </ol>
+                      </td>
+                    </tr>
+                  </tbody>
+
+                </table>
+              </div>
+            </div>
+
           </div>
-          <!-- Sidebar in right side of content area -->
+          <!-- Sidebar in right side of content area -->          
           <div class="col-md-3" id="sidebar">
             <br><br>
             <button type="button" class="btn btn-primary btn-lg btn-block btn btn-dark">Comfort Food Recipes</button>
@@ -112,7 +131,6 @@
             <br>
           </div>
         </div>
-        <!-- Footer with a Navigation Bar, hyperlinks not active -->
         <div class="row">
           <div class="col-md-12">
             <nav class="navbar navbar-expand-lg bg-dark">
